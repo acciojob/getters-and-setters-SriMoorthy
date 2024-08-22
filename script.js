@@ -5,9 +5,11 @@ class Person {
 		this.age = age;
 	}
 }
-const person = new Person('john',30);
-person.name;
+
+const person = new Person('John',30);
+console.log(person.name);
 person.age = 25;
+console.log(person.age);
 
 
 class Student extends Person {
