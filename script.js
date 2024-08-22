@@ -5,6 +5,10 @@ class Person {
 		this.age = age;
 	}
 }
+const person = new Person('john',30);
+person.name;
+person.age = 25;
+
 
 class Student extends Person {
 	study = () => console.log(`${this.name} is studying`)
