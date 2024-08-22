@@ -4,14 +4,8 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-}
-
-class Student extends Person get name() {
-    return this._name;
-}
-
-class Student extends Person set age(age) {
-    this._age = age;
+	get name = () => console.log(this.name)
+	set age = (age) => console.log(this.age = age)
 }
 
 
