@@ -4,8 +4,6 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	get name = () => console.log(this.name)
-	set age = (age) => console.log(this.age = age)
 }
 
 
