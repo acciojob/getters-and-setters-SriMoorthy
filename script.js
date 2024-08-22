@@ -6,8 +6,12 @@ class Person {
 	}
 }
 
-function get_name(Person){
-	return Person.name
+get name(){
+	return this.name
+}
+
+set age(age){
+	this.age = age
 }
 
 class Student extends Person {
