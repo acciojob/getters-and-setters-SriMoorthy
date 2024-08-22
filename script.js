@@ -6,10 +6,13 @@ class Person {
 	}
 }
 
-const person = new Person('John',30);
-console.log(person.name);
-person.age = 25;
-console.log(person.age);
+get name() {
+    return this._name;
+}
+
+set age(age) {
+    this._age = age;
+}
 
 
 class Student extends Person {
