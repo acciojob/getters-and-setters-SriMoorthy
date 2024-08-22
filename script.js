@@ -6,11 +6,11 @@ class Person {
 	}
 }
 
-get name() {
+class Student extends Person get name() {
     return this._name;
 }
 
-set age(age) {
+class Student extends Person set age(age) {
     this._age = age;
 }
 
