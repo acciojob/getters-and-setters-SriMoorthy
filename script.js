@@ -6,11 +6,11 @@ class Person {
 	}
 }
 
-let get_name = function() {
+get name = () => {
 	return this.name
 }
 
-let set age = function(age) {
+set age = (age) {
 	this.age = age;
 }
 
