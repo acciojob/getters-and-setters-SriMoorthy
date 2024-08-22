@@ -6,6 +6,14 @@ class Person {
 	}
 }
 
+let get_name = function() {
+	return this.name
+}
+
+let set age = function(age) {
+	this.age = age;
+}
+
 
 class Student extends Person {
 	study = () => console.log(`${this.name} is studying`)
